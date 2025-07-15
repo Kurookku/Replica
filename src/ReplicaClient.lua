@@ -70,7 +70,7 @@ MAD STUDIO
 
 ----- Dependencies -----
 
-local ReplicaShared = game.ReplicatedStorage.ReplicaShared
+local ReplicaShared = script.Parent:WaitForChild("ReplicaShared")
 local Remote = require(ReplicaShared.Remote)
 local Signal = require(ReplicaShared.Signal)
 local Maid = require(ReplicaShared.Maid)

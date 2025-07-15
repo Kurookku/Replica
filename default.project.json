@@ -1,16 +1,6 @@
 {
-	"name": "Replica",
-	"tree": {
-		"$className": "DataModel",
-		"ReplicatedStorage": {
-			"$className": "ReplicatedStorage",
-			"$ignoreUnknownInstances": true,
-			"$path": "src/ReplicatedStorage"
-		},
-		"ServerScriptService": {
-			"$className": "ServerScriptService",
-			"$ignoreUnknownInstances": true,
-			"$path": "src/ServerScriptService"
-		}
- 	}
+  "name": "replica",
+  "tree": {
+    "$path": "src"
+  }
 }
